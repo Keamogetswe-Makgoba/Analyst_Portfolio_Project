@@ -1,25 +1,4 @@
--- Creating a schema
-CREATE DATABASE bank_churn_db;
-USE bank_churn_db;
-
--- creating a table and importing
-CREATE TABLE churn_data (
-    row_id INT PRIMARY KEY,
-    customer_id INT,
-    surname VARCHAR(50),
-    credit_score INT,
-    geography VARCHAR(50),
-    gender VARCHAR(20),
-    age INT,
-    tenure INT,
-    balance DECIMAL(15, 2),
-    num_of_products INT,
-    has_card TINYINT(1),
-    is_active_member TINYINT(1),
-    estimated_salary DECIMAL(15, 2),
-    exited TINYINT(1)
-);
-
+-- EDA
 
 -- summary for our data
 SELECT 
